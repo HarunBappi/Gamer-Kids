@@ -1,0 +1,23 @@
+@media screen and (max-width:576px) {
+    .nav-container{
+        box-shadow: none;
+    }
+    .nav-content{
+        flex-direction: column;
+    }
+    .nav-right > ul{
+        flex-direction: column;
+    }
+    .header-content{
+        flex-direction: column-reverse;
+        margin-top: 25px;
+    }
+    .play-like
+    {
+        font-size: 6vw;
+    }
+    p{
+        font-size: 2vw;
+    }
+
+}
