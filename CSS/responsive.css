@@ -21,10 +21,10 @@
   .we-are-gamer-content {
     flex-direction: column;
   }
-  .we-are-gamer-left{
+  .we-are-gamer-left {
     width: 100%;
   }
-  .we-are-gamer-right{
+  .we-are-gamer-right {
     width: 70%;
     margin-top: 25px;
   }
@@ -32,14 +32,46 @@
   .mini-descrption {
     margin-left: 0;
   }
-  .know-more-btn{
+  .know-more-btn {
     margin-top: 20px;
     margin-bottom: 35px;
   }
   .gamer-title {
     font-size: 2rem;
   }
-  .gamer-down-title{
+  .gamer-down-title {
     font-size: 1rem;
+   margin-left: 0px;
   }
+  .online-games-content {
+    padding: 0 15px;
+  }
+  .online-games-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .info-description {
+    padding: 0 15px;
+    text-align: center;
+  }
+  .no-download-content{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px 15px;
+  }
+  .no-download-left {
+    margin: 0;
+  }
+    .no-download-left-2 {
+    margin: 0;
+  }
+  .shap-image-2 {
+    right:60%;
+}
+/* careers-content */
+.careers-content{
+  grid-template-columns: repeat(1, 1fr);
+}
+.careers-text{
+  margin-left: 0;
+  padding: 15px 25px;
+}
 }
