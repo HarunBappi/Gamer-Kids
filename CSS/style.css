@@ -280,13 +280,13 @@ p {
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
 }
-.no-download-left{
+.no-download-left {
   width: 250px;
   text-align: center;
   margin: 0 auto;
   padding-top: 100px;
 }
-.no-download-left-2{
+.no-download-left-2 {
   width: 400px;
   text-align: start;
   margin: 0 auto;
@@ -331,55 +331,90 @@ p {
   width: 250px;
   height: 250px;
 }
-.careers-container{
-  background-image:url(../images/Group\ 14.png);
-background-color: #f948b2;
+.careers-container {
+  background-image: url(../images/Group\ 14.png);
+  background-color: #f948b2;
   background-repeat: no-repeat;
 }
-.careers-content{
+.careers-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
-.careers-text{
+.careers-text {
   margin-left: 150px;
 }
-.careers-text h1{
- font-size: 2.5rem;
- font-weight: bold;
- color: #fff;
- margin-bottom: 20px;
-}.careers-text > p{
-color: #fff;
+.careers-text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
 }
-.career-info{
+.careers-text > p {
+  color: #fff;
+}
+.career-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap:45px;
+  gap: 45px;
   margin-top: 25px;
   font-size: 1.125rem;
-  font-weight:600;
+  font-weight: 600;
 }
-.career-info p{
+.career-info p {
   color: #fff;
   line-height: 40px;
 }
-.btn-see-option{
+.btn-see-option {
   background-color: #fff;
   padding: 15px 30px;
   border-radius: 48px;
   border: none;
-  color: #FF42A5;
+  color: #ff42a5;
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
   margin-top: 20px;
 }
-.right-text{
+.right-text {
   text-align: end;
 }
-.careers-image{
+.careers-image {
 }
-.careers-image img{
+.careers-image img {
   width: 100%;
+}
+/* games-icons-container Start in CSS */
+.games-icons-container {
+  max-width: 1010px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.games-icons-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+.grid-items{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+.grid-items p{
+  color: #000000;
+  font-weight: bold;
+}
+.grid-items img{
+  width: 40px;
+}
+.grid-items:hover{
+  outline: 1px solid violet;
+  color: #f948b2;
+  border-radius: 48px;
+}
+.grid-items:hover p{
+  color: #f948b2;
+
 }
